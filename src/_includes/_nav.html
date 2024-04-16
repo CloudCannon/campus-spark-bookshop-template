@@ -1,14 +1,83 @@
-<nav class="sub dark">
-	<div class="wrapper">
-		<a href="/apply">Apply</a>
-		<a href="/visit">Visit</a>
-		<a href="/give">Give</a>
-		<a href="/students">Students</a>
-		<a href="/families">Families</a>
-		<a href="/faculty-and-staff">Faculty &amp; Staff</a>
-		<a href="/alumni">Alumni</a>
-		<a href="/search/" class="icon">
-			{{ "/src/assets/svgs/search.svg" | svgContents }}
-		</a>
-	</div>
-</nav>
+<div class="wrapper logo-bar">
+	<h1>{{ "/src/assets/svgs/logo.svg" | svgContents: '' }}</h1>
+	<nav class="main">
+		<div class="dropdown">
+			<button><span>Admissions</span> {{ "/src/assets/svgs/hero/chevron-right.svg" | svgContents }}</button>	
+			<div class="dropdown-content">
+				<section class="highlight">
+					<a href="/admission-overview">
+						<div class="media">
+							<img src="/assets/students.jpg" alt="">
+						</div>
+						<span>Admission Overview</span>
+					</a>
+				</section>
+				<section>
+					<header>Under Graduate</header>
+					<ul>
+						<li><a href="#">Apply</a></li>
+						<li><a href="#">Admissions</a></li>
+						<li><a href="#">Dates and Deadlines</a></li>
+						<li><a href="#">Costs and Aid</a></li>
+					</ul>
+				</section>
+				<section>
+					<header>Graduate</header>
+					<ul>
+						<li><a href="#">Admissions</a></li>
+						<li><a href="#">Fields of Study</a></li>
+						<li><a href="#">Financial Support</a></li>
+					</ul>
+				</section>
+				<section>
+					<header>Special Programs</header>
+					<ul>
+						<li><a href="#">International</a></li>
+						<li><a href="#">Transfer</a></li>
+						<li><a href="#">Veterans</a></li>
+						<li><a href="#">Summer School</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<div class="dropdown">
+			<button><span>Academics</span> {{ "/src/assets/svgs/hero/chevron-right.svg" | svgContents }}</button>	
+			<div class="dropdown-content">
+				<section class="highlight">
+					<a href="/academics-overview">
+						<div class="media">
+							<img src="/assets/studying.jpg" alt="">
+						</div>
+						<span>Academics Overview</span>
+					</a>
+				</section>
+				<section>
+					<header>Schools</header>
+					<ul>
+						<li><a href="#">School of Arts</a></li>
+						<li><a href="#">School of Business</a></li>
+						<li><a href="#">School of Architecture</a></li>
+						<li><a href="#">School of Humanities</a></li>
+						<li><a href="#">School of Social Science</a></li>
+						<li><a href="#">School of Music</a></li>
+						<li><a href="#">School of Natural Science</a></li>
+					</ul>
+				</section>
+				<section>
+					<header>Programs</header>
+					<ul>
+						<li><a href="#">Fields of Study</a></li>
+						<li><a href="#">Departments</a></li>
+						<li><a href="#">Academic Calendar</a></li>
+						<li><a href="#">Libraries</a></li>
+						<li><a href="#">Online Education</a></li>
+						<li><a href="#">Research</a></li>
+						<li><a href="#">Study Abroad</a></li>
+					</ul>
+				</section>
+			</div>
+		</div>
+		<a href="/international">International</a>
+		<a href="/about">About</a>
+	</nav>
+</div>

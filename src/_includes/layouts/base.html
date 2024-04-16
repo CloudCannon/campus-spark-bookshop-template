@@ -8,20 +8,12 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/style.css">
+	<script src="/assets/main.js" defer></script>
 </head>
 <body>
 	<header class="top">
+		{% include "_sub_nav.html" %}
 		{% include "_nav.html" %}
-		<div class="wrapper logo-bar">
-			<h1>{{ "/src/assets/svgs/logo.svg" | svgContents: '' }}</h1>
-			<nav>
-				<a href="/admissions">Admissions</a>	
-				<a href="/academics">Academics</a>
-				<a href="/research">Research</a>
-				<a href="/international">International</a>
-				<a href="/about">About</a>
-			</nav>
-		</div>
 		
 	</header>
 	<main>
