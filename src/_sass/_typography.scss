@@ -1,0 +1,56 @@
+html {
+	font-family: "Sarabun", sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+p, li {
+	font-size: var(--font-size-lg);
+	line-height: var(--line-height-lg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 1.5rem;
+	line-height: 1.5rem;
+
+	& + p, & + ul, & + ol, & + blockquote, & + table {
+		margin-top: .5rem;
+	}
+
+	a {
+		color: var(--primary);
+		text-decoration: none;
+
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+h1, .u-step-1 {
+	font-size: var(--font-size-xxxl);
+	line-height: var(--line-height-xl);
+	margin-bottom: var(--space-size-xl);
+}
+
+h2, .u-step-2 {
+	font-size: var(--font-size-xxl);
+	line-height: var(--line-height-lg);
+	margin-bottom: var(--space-size-sm);
+}
+
+h3, .u-step-3 {
+	font-size: var(--font-size-xl);
+	line-height: var(--line-height-md);
+}
+
+h4, .u-step-4 {
+	font-size: var(--font-size-lg);
+}
+
+h5, .u-step-5 {
+	font-size: var(--font-size-md);
+}
+
+h6, .u-step-6 {
+	font-size: var(--font-size-sm);
+}

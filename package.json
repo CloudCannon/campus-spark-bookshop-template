@@ -1,0 +1,23 @@
+{
+  "name": "campus-spark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "watch:sass": "sass --watch src/_sass:_site/assets/",
+    "build:sass": "sass src/_sass:_site/assets/",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "build:eleventy": "npx @11ty/eleventy",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:*"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "eleventy-plugin-svg-contents": "^0.7.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.75.0"
+  }
+}
