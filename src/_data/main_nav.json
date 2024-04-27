@@ -1,0 +1,166 @@
+[
+	{
+		"title": "Admissions",
+		"overview": {
+			"title": "Admissions Overview",
+			"link": "/admission-overview",
+			"media": {
+				"image": "/assets/students.jpg",
+				"alt": "Students in the admissions office"
+			}
+		},
+		"sections": [
+			{
+				"title": "Under Graduate",
+				"items": [
+					{
+						"title": "Apply",
+						"link": "#"
+					},
+					{
+						"title": "Admissions",
+						"link": "#"
+					},
+					{
+						"title": "Dates and Deadlines",
+						"link": "#"
+					},
+					{
+						"title": "Costs and Aid",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"title": "Graduate",
+				"items": [
+					{
+						"title": "Admissions",
+						"link": "#"
+					},
+					{
+						"title": "Fields of Study",
+						"link": "#"
+					},
+					{
+						"title": "Financial Support",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"title": "Special Programs",
+				"items": [
+					{
+						"title": "International",
+						"link": "#"
+					},
+					{
+						"title": "Transfer",
+						"link": "#"
+					},
+					{
+						"title": "Veterans",
+						"link": "#"
+					},
+					{
+						"title": "Summer School",
+						"link": "#"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Academics",
+		"overview": {
+			"title": "Academics Overview",
+			"link": "/academics-overview",
+			"media": {
+				"image": "/assets/studying.jpg",
+				"alt": "Students studying"
+			}
+		},
+		"sections": [
+			{
+				"title": "Schools",
+				"items": [
+					{
+						"title": "School of Arts",
+						"link": "#"
+					},
+					{
+						"title": "School of Business",
+						"link": "#"
+					},
+					{
+						"title": "School of Architecture",
+						"link": "#"
+					},
+					{
+						"title": "School of Humanities",
+						"link": "#"
+					},
+					{
+						"title": "School of Social Science",
+						"link": "#"
+					},
+					{
+						"title": "School of Music",
+						"link": "#"
+					},
+					{
+						"title": "School of Natural Science",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"title": "Programs",
+				"items": [
+					{
+						"title": "Fields of Study",
+						"link": "#"
+					},
+					{
+						"title": "Departments",
+						"link": "#"
+					},
+					{
+						"title": "Academic Calendar",
+						"link": "#"
+					},
+					{
+						"title": "Libraries",
+						"link": "#"
+					},
+					{
+						"title": "Online Education",
+						"link": "#"
+					},
+					{
+						"title": "Research",
+						"link": "#"
+					},
+					{
+						"title": "Study Abroad",
+						"link": "#"
+					}
+				]
+			}
+		]
+	},
+	{
+		"title": "Other Links",
+		"items": [
+			{
+				"title": "International",
+				"link": "/international"
+			},
+			{
+				"title": "About",
+				"link": "/about"
+			}
+		]
+	}
+]

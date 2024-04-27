@@ -10,10 +10,10 @@
 	display: inline-block;
 	padding: 0;
 	border-radius: 20em;
-	transition: 100ms;
+	transition: background 100ms ease-out;
 
 	svg {
-		transition: 300ms;
+		transition: opacity 300ms ease-out;
 		padding: .3rem;
 		max-width: 100%;
 		max-height: 100%;
@@ -57,7 +57,7 @@
 			object-position: center;
 			height: 100%;
 			width: 100%;
-			transition: all 250ms ease;
+			transition: transform 250ms ease;
 		}
 	}
 
@@ -192,7 +192,7 @@ footer.main {
 	border-radius: var(--small-border-radius);
 	padding: var(--space-size-sm) var(--space-size-sm);
 	cursor: pointer;
-	transition: 200ms;
+	transition: background 200ms ease-out;
 	font-size: var(--font-size-md);
 	font-weight: bold;
 	display: inline-block;
@@ -206,35 +206,51 @@ footer.main {
 	}
 }
 
-dl.stats {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-	background: var(--primary);
-	color: var(--on-dark-text);
-	border: 1px solid #333;
-	width: 100%;
-	padding: var(--space-size-sm) var(--space-size-lg);
-	border-radius: var(--large-border-radius);
-	margin-top: 4rem;
-	
+.stats {
+	container-type: inline-size;
+	container-name: stats-container;
+	dl {
+		display: grid;
+		grid-template-columns: 1fr;
+		background: var(--primary);
+		color: var(--on-dark-text);
+		border: 1px solid #333;
+		width: 100%;
+		padding: var(--space-size-sm) var(--space-size-lg);
+		border-radius: var(--large-border-radius);
+		margin-top: 4rem;
 
+		.stat {
+			display: flex;
+			flex-direction: column-reverse;
+			flex-grow: 1;
+			padding: var(--space-size-lg) 0;
+		}
 
-	.stat {
-		display: flex;
-		flex-direction: column-reverse;
-		flex-grow: 1;
-		padding: var(--space-size-lg) 0;
+		dt {
+			text-align: center;
+		}
+
+		dd {
+			margin-left: 0;
+			font-size: var(--font-size-xxxl);
+			text-align: center;
+			line-height: var(--line-height-sm);
+		}
 	}
+}
 
-	dt {
-		text-align: center;
+@container stats-container (min-width: 450px) {
+	.stats dl {
+		grid-template-columns: repeat(2, 1fr);
 	}
+}
 
-	dd {
-		margin-left: 0;
-		font-size: var(--font-size-xxxl);
-		text-align: center;
-		line-height: var(--line-height-sm);
+
+
+@container stats-container (min-width: 900px) {
+	.stats dl {
+		grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	}
 }
 

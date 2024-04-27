@@ -1,0 +1,76 @@
+@import "logo-bar/_desktop.scss";
+@import "logo-bar/_mobile.scss";
+
+header.top {
+	background: var(--bright-background);
+	z-index: 100;
+	position: relative;
+	
+	nav.sub {
+		display: none;
+		font-size: var(--font-size-md);
+		padding: 0.25rem;
+
+		@media screen and (min-width: $mobile-break) {
+			display: block;
+		}
+
+		.wrapper {
+			display: flex;
+			column-gap: 0.8rem;
+			flex-wrap: wrap;
+			align-items: center;
+			justify-content: end;
+		}
+
+		a {
+			text-decoration: none;
+			opacity: 0.8;
+			&:hover {
+				text-decoration: underline;
+				opacity: 1;
+			}
+		}
+	}
+}
+
+.logo-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	padding-top: var(--space-size-sm);
+	padding-bottom: var(--space-size-sm);
+	container-type: inline-size;
+	container-name: logo-bar-container;
+	
+	nav.main-desktop {
+		display: none;
+	}
+
+	nav.main-mobile {
+		display: block;
+	}
+
+
+	h1 {
+		margin: 0;
+		padding: 0;
+		line-height: 1rem;
+	}
+
+	@media screen and (min-width: $mobile-break) {
+		nav.main-desktop {
+			display: flex;
+		}
+
+		nav.main-mobile {
+			display: none;
+		}
+	}
+
+	@media screen and (min-width: $mobile-break) {
+		padding-top: var(--space-size-lg);
+		padding-bottom: var(--space-size-lg);
+	}
+}

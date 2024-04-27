@@ -1,0 +1,47 @@
+<nav class="main-mobile dropdown" role="navigation" aria-label="Mobile Main Navigation">
+	
+	<button
+		class="mobile-menu-button dropdown-menu-button"
+		type="button"
+		aria-expanded="false"
+		aria-controls="mobile-menu"
+	>
+		<span class="visually-hidden">Menu</span> {{ "/src/assets/svgs/hero/bars-3.svg" | svgContents }}
+	</button>
+	<div class="mobile-menu dropdown-menu" id="mobile-menu">
+	{% for nav_item in main_nav %}
+		<div class="mobile-dropdown-content dropdown" >
+			<button type="button"
+				class="dropdown-menu-button focus-rotate"
+				aria-expanded="false"
+				aria-controls="inner-mobile-menu-{{ forloop.index }}"
+			>
+				<span>{{ nav_item.title }}</span> {{ "/src/assets/svgs/hero/chevron-right.svg" | svgContents }}
+			</button>
+			<div class="dropdown-menu" id="inner-mobile-menu-{{ forloop.index }}">
+				<div class="inner-mobile-menu">
+					<section class="highlight">
+						<a href="{{ nav_item.overview.title }}">
+							{{ nav_item.overview.title }}
+						</a>
+					</section>
+					{% for section in nav_item.sections %}
+					<section>
+						<header>{{ section.title }}</header>
+						<ul>
+						{% for item in section.items %}
+						<li>
+							<a href="#">
+							{{ item.title }}
+							</a>
+						</li>
+						{% endfor %}
+						</ul>
+					</section>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+	</div>
+</nav>

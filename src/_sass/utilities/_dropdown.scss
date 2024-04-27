@@ -1,0 +1,21 @@
+.dropdown {
+	> button.focus-rotate svg {
+		transition: transform 250ms ease;
+	}
+
+	&:focus-within:not(.dropdown-js),  &.dropdown-js.is-active {
+		& > .dropdown-menu {
+			visibility: visible;
+			max-height: none;
+		}
+
+		> button.focus-rotate svg {
+			transform: rotate(90deg);
+		}
+	}
+}
+
+.dropdown-menu {
+	visibility: hidden;
+	max-height: 0;
+}

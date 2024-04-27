@@ -31,11 +31,10 @@ body {
 a {
 	color: var(--link);
 	text-underline-offset: .2ex;
-	transition: all 200ms ease;
+	transition: text-decoration-thickness 200ms ease;
 	text-decoration-thickness: 1px;
 
 	&:hover {
-		transition: all 200ms ease;
 		text-decoration-thickness: 2px;
 	}
 }

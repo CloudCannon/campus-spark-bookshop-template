@@ -1,0 +1,40 @@
+<nav class="main-desktop" aria-label="Main Navigation" role="navigation">
+	{% for nav_item in main_nav %}
+	<div class="dropdown">
+		<button
+			class="dropdown-menu-button"
+			type="button"
+			aria-expanded="false"
+			aria-controls="dropdown-{{ forloop.index }}"
+		>
+			<span>{{ nav_item.title }}</span> {{ "/src/assets/svgs/hero/chevron-right.svg" | svgContents }}
+		</button>
+  <div class="dropdown-menu" id="dropdown-{{ forloop.index }}">
+	<div class="dropdown-content" >
+	  <section class="highlight">
+		<a href="{{ nav_item.overview.title }}">
+		  <div class="media">
+			<img src="{{ nav_item.overview.media.image }}" alt="{{ nav_item.overview.media.alt }}">
+		  </div>
+		  <span>{{ nav_item.overview.title }}</span>
+		</a>
+	  </section>
+	  {% for section in nav_item.sections %}
+	  <section>
+		<header>{{ section.title }}</header>
+		<ul>
+		  {% for item in section.items %}
+		  <li>
+			<a href="#">
+			  {{ item.title }}
+			</a>
+		  </li>
+		  {% endfor %}
+		</ul>
+	  </section>
+	  {% endfor %}
+	</div>
+  </div>
+	</div>
+	{% endfor %}
+</nav>
