@@ -19,59 +19,6 @@
 	<main>
 		{{ content }}
 	</main>
-	<footer class="main dark">
-		<div class="wrapper">
-			<div class="top">
-				<nav>
-					<section>
-						<h4>Admissions</h4>
-						<a href="/undergraduate">Undergraduate</a>
-						<a href="/graduate">Graduate</a>
-						<a href="/international">International</a>
-						<a href="/financial-aid">Financial Aid</a>
-					</section>
-					<section>
-						<h4>Resources</h4>
-						<a href="/campus-map">Campus Map</a>
-						<a href="/directory">Directory</a>
-						<a href="/careers">Careers</a>
-						<a href="/contact">Contact</a>
-					</section>
-					<section>
-						<h4>Communities</h4>
-						<a href="/alumni">Alumni</a>
-						<a href="/parents">Parents</a>
-						<a href="/faculty">Faculty</a>
-						<a href="/staff">Staff</a>
-						<a href="/international">International</a>
-					</section>
-					<section>
-						<h4>Help</h4>
-						<a href="/help">Help</a>
-						<a href="/faq">FAQ</a>
-						<a href="/safety">Safety</a>
-						<a href="/contact">Contact</a>
-						<a href="/directory">Directory</a>
-					</section>
-				</nav>
-			</div>
-			<div class="bottom">
-				<div>&copy; 2024 State University</div>
-				<nav>
-					<a href="/relations">Relations</a>
-					<a href="/privacy">Privacy policy</a>
-					<a href="/accessibility">Accessibility</a>
-					<a href="/non-discrimination">Notice of Non-Discrimination</a>
-				</nav>
-				<div class="socials">
-					<a href="https://facebook.com" class="icon">{{ '/src/assets/svgs/socials/facebook.svg' | svgContents }}</a>
-					<a href="https://x.com" class="icon">{{ '/src/assets/svgs/socials/x.svg' | svgContents }}</a>
-					<a href="https://instagram.com" class="icon">{{ '/src/assets/svgs/socials/instagram.svg' | svgContents }}</a>
-					<a href="https://linkedin.com" class="icon">{{ '/src/assets/svgs/socials/linkedin.svg' | svgContents }}</a>
-					<a href="https://youtube.com" class="icon">{{ '/src/assets/svgs/socials/youtube.svg' | svgContents }}</a>
-				</div>
-			</div>
-		</div>
-	</footer>
+	{% include "_footer.html" %}
 </body>
 </html>

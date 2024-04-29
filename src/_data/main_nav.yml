@@ -83,40 +83,7 @@
 		},
 		"sections": [
 			{
-				"title": "Schools",
-				"items": [
-					{
-						"title": "School of Arts",
-						"link": "#"
-					},
-					{
-						"title": "School of Business",
-						"link": "#"
-					},
-					{
-						"title": "School of Architecture",
-						"link": "#"
-					},
-					{
-						"title": "School of Humanities",
-						"link": "#"
-					},
-					{
-						"title": "School of Social Science",
-						"link": "#"
-					},
-					{
-						"title": "School of Music",
-						"link": "#"
-					},
-					{
-						"title": "School of Natural Science",
-						"link": "#"
-					}
-				]
-			},
-			{
-				"title": "Programs",
+				"title": "Educational Programs",
 				"items": [
 					{
 						"title": "Fields of Study",
@@ -127,19 +94,7 @@
 						"link": "#"
 					},
 					{
-						"title": "Academic Calendar",
-						"link": "#"
-					},
-					{
-						"title": "Libraries",
-						"link": "#"
-					},
-					{
 						"title": "Online Education",
-						"link": "#"
-					},
-					{
-						"title": "Research",
 						"link": "#"
 					},
 					{
@@ -147,19 +102,112 @@
 						"link": "#"
 					}
 				]
-			}
-		]
-	},
-	{
-		"title": "Other Links",
-		"items": [
-			{
-				"title": "International",
-				"link": "/international"
 			},
 			{
+				"title": "Research & Development",
+				"items": [
+					{
+						"title": "Research",
+						"link": "#"
+					},
+					{
+						"title": "Innovation Labs",
+						"link": "#"
+					},
+					{
+						"title": "Academic Partnerships",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"title": "Learning Resources",
+				"items": [
+					{
+						"title": "Libraries",
+						"link": "#"
+					},
+					{
+						"title": "Academic Calendar",
+						"link": "#"
+					},
+					{
+						"title": "Learning Management System",
+						"link": "#"
+					}
+				]
+			}
+		]
+	},	
+	{
+		"title": "Meet State University",
+		"overview": {
+			"title": "State Overview",
+			"link": "#",
+			"media": {
+				"image": "/assets/campus.jpg",
+				"alt": "State University Campus"
+			}
+		},
+		"sections": [
+			{
 				"title": "About",
-				"link": "/about"
+				"items": [
+					{
+						"title": "History",
+						"link": "#"
+					},
+					{
+						"title": "Mission",
+						"link": "#"
+					},
+					{
+						"title": "Leadership",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"title": "Contact & Careers",
+				"items": [
+					{
+						"title": "Employment",
+						"link": "#"
+					},
+					{
+						"title": "Contact",
+						"link": "#"
+					},
+					{
+						"title": "Outreach Programs",
+						"link": "#"
+					},
+					{
+						"title": "Public Services",
+						"link": "#"
+					}
+				]
+			},
+			{
+				"title": "Resources",
+				"items": [
+					{
+						"title": "Libraries",
+						"link": "#"
+					},
+					{
+						"title": "Publications",
+						"link": "#"
+					},
+					{
+						"title": "News",
+						"link": "#"
+					},
+					{
+						"title": "Events",
+						"link": "#"
+					}
+				]
 			}
 		]
 	}

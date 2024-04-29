@@ -1,0 +1,10 @@
+<div class="stats">
+    <dl>
+        {% for stat in stats %}
+        <div class="stat">
+            <dt>{{ stat.text }}</dt>
+            <dd>{{ stat.value }}</dd>
+        </div>
+        {% endfor %}
+    </dl>
+</div>

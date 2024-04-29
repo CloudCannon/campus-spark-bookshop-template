@@ -1,0 +1,45 @@
+<footer class="main dark">
+	<div class="wrapper">
+		<div class="top">
+			<nav>
+				{% for section in footer.sections %}
+				<section>
+					<h4>{{ section.title }}</h4>
+					{% for link in section.links %}
+					<a href="{{ link.url }}">{{ link.label }}</a>
+					{% endfor %}
+				</section>
+				{% endfor %}
+			</nav>
+		</div>
+		<div class="bottom">
+			<div>{{ footer.bottom.copyright }}</div>
+			<nav>
+				{% for link in footer.bottom.links %}
+				<a href="{{ link.url }}">{{ link.label }}</a>
+				{% endfor %}
+			</nav>
+			<div class="socials">
+				{% if footer.bottom.socials.facebook %}
+					<a href="{{ footer.bottom.socials.facebook }}" class="icon">{{ '/src/assets/svgs/socials/facebook.svg' | svgContents }}</a>
+				{% endif %}
+
+				{% if footer.bottom.socials.twitter %}
+					<a href="{{ footer.bottom.socials.twitter }}" class="icon">{{ '/src/assets/svgs/socials/x.svg' | svgContents }}</a>
+				{% endif %}
+
+				{% if footer.bottom.socials.instagram %}
+					<a href="{{ footer.bottom.socials.instagram }}" class="icon">{{ '/src/assets/svgs/socials/instagram.svg' | svgContents }}</a>
+				{% endif %}
+
+				{% if footer.bottom.socials.linkedin %}
+					<a href="{{ footer.bottom.socials.linkedin }}" class="icon">{{ '/src/assets/svgs/socials/linkedin.svg' | svgContents }}</a>
+				{% endif %}
+
+				{% if footer.bottom.socials.youtube %}
+					<a href="{{ footer.bottom.socials.youtube }}" class="icon">{{ '/src/assets/svgs/socials/youtube.svg' | svgContents }}</a>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</footer>

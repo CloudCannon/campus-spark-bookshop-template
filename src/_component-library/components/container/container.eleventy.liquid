@@ -1,0 +1,7 @@
+<section>
+    <div class="wrapper">
+        {% for block in container_blocks %}
+            {% bookshop "{{block._bookshop_name}}" bind: block %}
+        {% endfor %}
+    </div>
+</section>

@@ -1,0 +1,20 @@
+<section>
+	<div class="wrapper cards">
+        {% for card_container in cards %}
+        {% assign card = card_container.card %}
+		<div class="card">
+			<div class="media">
+				<img eleventy:widths="500" src="{{ card.media.url }}" alt="{{ card.media.alt }}">
+			</div>
+			<div class="text">
+				<h3>
+					<a href="{{ card.heading.url }}">
+						{{ card.heading.text }}
+					</a>
+				</h3>
+				<p>{{ card.text }}</p>
+			</div>
+		</div>
+        {% endfor %}
+	</div>
+</section>

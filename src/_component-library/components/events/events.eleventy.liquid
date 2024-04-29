@@ -1,0 +1,29 @@
+<section>
+    <div class="full-image-container">
+        <img class="full-image" src="{{ background_image.url }}" alt="{{ background_image.alt }}">
+        <div class="wrapper">
+            <div class="center-text">
+                <h2>{{ title }}</h2>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="events">
+            {% for event in events %}
+            <article class="event">
+                <time>
+                    {{ event.date }}
+                </time>
+                <div class="info">
+                    <h3><a href="">{{ event.title }}</a></h3>
+                    <p>{{ event.time }}</p>
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+
+        <p class="center-text">
+            <a href="{{ button.link }}" class="button push-top">{{ button.text }}</a>
+        </p>
+    </div>
+</section>

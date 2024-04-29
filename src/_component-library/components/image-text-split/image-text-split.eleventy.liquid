@@ -1,0 +1,16 @@
+<section>
+    <div class="wrapper">
+        <div class="split-with-image {% if reverse %}reverse{% endif %}">
+            <div class="col img-cover">
+                {% image image.url, image.alt, 1200 %}
+            </div>
+            <div class="col content v-center">
+                <div>
+                    {% for block in inner_content_blocks %}
+                        {% bookshop "{{block._bookshop_name}}" bind: block %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

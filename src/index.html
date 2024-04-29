@@ -1,170 +1,101 @@
 ---
 layout: layouts/base.html
+content_blocks:
+  - _bookshop_name: video
+    url: 'https://player.vimeo.com/progressive_redirect/playback/933903312/rendition/1080p/file.mp4?loc=external&log_user=0&signature=205ce9b5081e9f9d4fe2fbfd6a31a8942bae2051d2bc5e10b39e809ea803afa7'
+  - _bookshop_name: cards
+    cards:
+      - card:
+          media:
+            url: '/assets/campus.jpg'
+            alt: 'Campus'
+          heading:
+            text: 'Admissions'
+            url: '#'
+          text: 'Learn more about the admissions process and how to apply.'
+      - card:
+          media:
+            url: '/assets/lecture.jpg'
+            alt: 'Lecture hall'
+          heading:
+            text: 'Academics'
+            url: '#'
+          text: 'Explore our academic programs and departments.'
+      - card:
+          media:
+            url: '/assets/research.jpg'
+            alt: 'Research lab'
+          heading:
+            text: 'Research'
+            url: '#'
+          text: 'Discover the research opportunities available.'
+  - _bookshop_name: image-text-split
+    image:
+      url: /assets/teaching.jpg
+      alt: Teaching
+    inner_content_blocks:
+      - _bookshop_name: heading
+        text: An education for everyone
+      - _bookshop_name: text
+        text: Our mission is to provide an accessible, affordable, and high-quality education that meets the diverse needs of our students.
+      - _bookshop_name: button
+        text: Plan your visit
+        url: '#'
+    reverse: false
+  - _bookshop_name: container
+    container_blocks:
+      - _bookshop_name: tight-container
+        inner_content_blocks:
+          - _bookshop_name: heading
+            text: 'The leading University in the state'
+          - _bookshop_name: text
+            text: 'We are proud to provide the best education for our students, offering a diverse range of programs and vibrant campus life.'
+      - _bookshop_name: stat-block
+        stats:
+          - text: Graduation rate
+            value: 95%
+          - text: Students
+            value: 10,000
+          - text: Teacher:Student ratio
+            value: 1:15
+          - text: Acceptance rate
+            value: 85%
+  - _bookshop_name: image-text-split
+    image:
+      url: assets/basketball.jpg
+      alt: Basketball
+    inner_content_blocks:
+      - _bookshop_name: heading
+        text: World-class athletic program
+      - _bookshop_name: text
+        text: Our athletics program is committed to excellence in academics, competition, and community engagement.
+      - _bookshop_name: button
+        text: Explore our Athletics program
+        url: '#'
+    reverse: true
+  - _bookshop_name: events
+    background_image:
+      url: /assets/grad.jpg
+      alt: Graduation
+    title: Upcoming events
+    events:
+      - date: Jan 15
+        url:
+        title: Spring semester begins
+        time: 2pm-3pm Union Hall
+      - date: Feb 10
+        url:
+        title: Open house
+        time: 1pm-3pm Lincoln Center
+      - date: Mar 5
+        url:
+        title: Research symposium
+        time: 10am-12pm Quad Building
+    button:
+      text: View all events
+      link: #
+
 ---
-<video class="highlight-video" src="https://player.vimeo.com/progressive_redirect/playback/933903312/rendition/1080p/file.mp4?loc=external&log_user=0&signature=205ce9b5081e9f9d4fe2fbfd6a31a8942bae2051d2bc5e10b39e809ea803afa7" autoplay muted playsinline loop></video>
-<section>
-	<div class="wrapper cards">
-		<div class="card">
-			<div class="media">
-				<img src="/assets/campus.jpg" alt="">
-			</div>
-			<div class="text">
-				<h3>
-					<a href="/admissions">
-						Admissions
-					</a>
-				</h3>
-				<p>Learn more about the admissions process and how to apply.</p>
-			</div>
-		</div>
-		<div class="card">
-			<div class="media">
-				<img src="/assets/lecture.jpg" alt="">
-			</div>
-			<div class="text">
-				<h3>
-					<a href="/academics">
-						Academics
-					</a>
-				</h3>
-				<p>Explore our academic programs and departments.</p>
-			</div>
-		</div>
-		<div class="card">
-			<div class="media">
-				<img src="/assets/research.jpg" alt="">
-			</div>
-			<div class="text">
-				<h3>
-					<a href="/research">
-						Research
-					</a>
-				</h3>
-				<p>Discover the research opportunities available.</p>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="wrapper">
-		<div class="split-with-image">
-			<div class="col img-cover">
-				<img src="/assets/teaching.jpg" alt="">
-			</div>
-			<div class="col content v-center">
-				<div>
-					<h2>An education for everyone</h2>
-					<p>
-						Our mission is to provide an accessible, affordable, and high-quality 
-						education that meets the diverse needs of our students.
-					</p>
-
-					<p>
-						<a href="/about" class="button push-top">Plan your visit</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="wrapper">
-		<div class="tight-container center-text">
-			<h2>The leading University in the state</h2>
-			<p>
-				We are proud to provide the best education for our students, 
-				offering a diverse range of programs and vibrant campus life.
-			</p>
-		</div>
-
-		<div class="stats">
-			<dl>
-				<div class="stat">
-					<dt>Graduation rate</dt>
-					<dd>95%</dd>
-				</div>
-				<div class="stat">
-					<dt>Students</dt>
-					<dd>10,000</dd>
-				</div>
-				<div class="stat">
-					<dt>Teacher:Student ratio</dt>
-					<dd>1:15</dd>
-				</div>
-				<div class="stat">
-					<dt>Acceptance rate</dt>
-					<dd>85%</dd>
-				</div>
-			</dl>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="wrapper">
-		<div class="split-with-image">
-			<div class="col content v-center">
-				<div>
-					<h2>World-class athletic program</h2>
-					<p>
-						Our athletics program is committed to excellence in academics, 
-						competition, and community engagement.
-					</p>
-					<p>
-						<a href="/about" class="button push-top">Explore Our Athletics</a>
-					</p>
-				</div>
-			</div>
-			<div class="col img-cover">
-				<img src="/assets/basketball.jpg" alt="">
-			</div>
-		</div>
-	</div>
-</section>
-
-<section>
-	<div class="full-image" style="background-image: url('/assets/grad.jpg')">
-		<div class="wrapper">
-			<div class="center-text">
-				<h2>Upcoming events</h2>
-			</div>
-		</div>
-	</div>
-	<div class="wrapper">
-		<div class="events">
-			<article class="event">
-				<time>
-					Jan 15
-				</time>
-				<div class="info">
-					<h3><a href="">Spring semester begins</a></h3>
-					<p>2pm-3pm Union Hall</p>
-				</div>
-			</article>
-			<article class="event">
-				<time>
-					Feb 10
-				</time>
-				<div class="info">
-					<h3><a href="">Open house</a></h3>
-					<p>1pm-3pm Lincoln Center</p>
-				</div>
-			</article>
-			<article class="event">
-				<time>
-					Mar 5
-				</time>
-				<div class="info">
-					<h3><a href="">Research symposium</a></h3>
-					<p>10am-12pm Quad Building</p>
-				</div>
-			</article>
-		</div>
-
-		<p class="center-text">
-			<a href="/events" class="button push-top">View all events</a>
-		</p>
-	</div>
-</section>
+{% for block in content_blocks %}
+  {% bookshop "{{block._bookshop_name}}" bind: block %}
+{% endfor %}

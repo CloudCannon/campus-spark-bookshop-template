@@ -1,0 +1,9 @@
+<section>
+    <div class="wrapper">
+        <div class="tight-container center-text">
+            {% for block in inner_content_blocks %}
+                {% bookshop "{{block._bookshop_name}}" bind: block %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
