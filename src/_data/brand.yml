@@ -1,0 +1,15 @@
+logo: /src/assets/svgs/logo.svg
+title: State University
+colors:
+  primary: "#1d3c6b"
+  primary_dark: "#0d192b"
+  primary_text: "#5a5e63"
+  light_text: "#787cad"
+  dark_text: "#242424"
+  on_dark_text: "#ffffff"
+  dark_border: "#aca8d4"
+  light_border: "#e0e0e0"
+  background: "#eef3f7"
+  bright_background: "#ffffff"
+  soft_highlight: "#f5f5f5"
+  link: "#000000"

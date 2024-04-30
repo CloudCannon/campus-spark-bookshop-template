@@ -1,5 +1,5 @@
 <div class="wrapper logo-bar">
-	<h1>{{ "/src/assets/svgs/logo.svg" | svgContents: '' }}</h1>
+	<h1><img src="{{ brand.logo | replace: "/src/", "/" }}" alt="{{ brand.title }}"></h1>
 	{% include "nav/_main.html" %}
   {% include "nav/_mobile.html" %}
 </div>

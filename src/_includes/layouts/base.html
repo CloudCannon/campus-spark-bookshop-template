@@ -9,6 +9,22 @@
 	<link href="https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="/assets/style.css">
 	<script src="/assets/main.js" defer></script>
+	<style>
+		html {
+			--primary: {{ brand.colors.primary }};
+			--primary-dark: {{ brand.colors.primary_dark }};
+			--primary-text: {{ brand.colors.primary_text }};
+			--light-text: {{ brand.colors.light_text }};
+			--dark-text: {{ brand.colors.dark_text }};
+			--on-dark-text: {{ brand.colors.on_dark_text }};
+			--dark-border: {{ brand.colors.dark_border }};
+			--light-border: {{ brand.colors.light_border }};
+			--background: {{ brand.colors.background }};
+			--bright-background: {{ brand.colors.bright_background }};
+			--soft-highlight: {{ brand.colors.soft_highlight }};
+			--link: {{ brand.colors.link }};
+		}
+	</style>
 </head>
 <body>
 	<header class="top">

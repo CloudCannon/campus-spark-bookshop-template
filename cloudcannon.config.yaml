@@ -1,3 +1,51 @@
 _inputs:
   layout:
     hidden: true
+  primary:
+    label: Primary Color
+    type: color
+    default: "#1d3c6b"
+  primary_dark: 
+    label: Primary Dark Color
+    type: color
+    default: "#0d192b";
+  primary_text:
+    label: Primary Text Color
+    type: color
+    default: "#5a5e63"
+	light_text: 
+    label: Light Text Color
+    type: color
+    default: "#787cad"
+	dark_text: 
+    label: Dark Text Color
+    type: color
+    default: "#242424"
+	on_dark_text: 
+    label: On Dark Text Color
+    type: color
+    default: "#ffffff"
+	dark_border: 
+    label: Dark Border Color
+    type: color
+    default: "#aca8d4"
+	light_border: 
+    label: Light Border Color
+    type: color
+    default: "#e0e0e0"
+	background: 
+    label: Background Color
+    type: color
+    default: "#eef3f7"
+	bright_background: 
+    label: Bright Background Color
+    type: color
+    default: "#ffffff"
+	soft_highlight: 
+    label: Soft Highlight Color
+    type: color
+    default: "#f5f5f5"
+	link: 
+    label: Link Color
+    type: color
+    default: "#000000"
