@@ -33,7 +33,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addDataExtension("yml", (contents) => yaml.load(contents));
 
 	eleventyConfig.addPlugin(pluginBookshop({
-		bookshopLocations: ["src/_component-library"],  
+		bookshopLocations: ["component-library"],  
 		pathPrefix: '', 
 	  }));
 
