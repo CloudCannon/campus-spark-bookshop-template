@@ -5,7 +5,7 @@ spec:
     - container_blocks
   label: "Stat-block"
   description:
-  icon:
+  icon: "trending_up"
   tags: []
 
 # Defines the structure of this component, as well as the default values

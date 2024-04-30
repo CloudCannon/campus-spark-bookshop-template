@@ -3,8 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Cards"
-  description:
-  icon:
+  description: "A set of cards with an image, heading, and text"
+  icon: "width_normal"
   tags: []
 
 # Defines the structure of this component, as well as the default values

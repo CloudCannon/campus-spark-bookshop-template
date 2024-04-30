@@ -4,7 +4,7 @@ spec:
     - content_blocks
   label: "Container"
   description:
-  icon:
+  icon: "width_full"
   tags: []
 
 # Defines the structure of this component, as well as the default values

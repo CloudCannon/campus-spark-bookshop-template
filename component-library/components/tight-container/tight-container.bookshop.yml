@@ -5,7 +5,7 @@ spec:
     - content_blocks
   label: "Tight-container"
   description:
-  icon:
+  icon: "notes"
   tags: []
 
 # Defines the structure of this component, as well as the default values

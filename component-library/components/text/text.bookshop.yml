@@ -4,7 +4,7 @@ spec:
     - inner_content_blocks
   label: "Text"
   description:
-  icon:
+  icon: "article"
   tags: []
 
 # Defines the structure of this component, as well as the default values
