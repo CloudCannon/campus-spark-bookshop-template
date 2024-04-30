@@ -5,6 +5,7 @@ const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
 	eleventyConfig.addWatchTarget("./src/assets/style.css");
+	eleventyConfig.addWatchTarget("component-library/");
 	eleventyConfig.addPassthroughCopy("./src/assets/");
 	eleventyConfig.addPlugin(svgContents);
 
