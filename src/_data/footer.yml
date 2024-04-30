@@ -56,7 +56,7 @@ bottom:
     - label: "Notice of Non-Discrimination"
       url: "#"
   socials:
-    - facebook: "#"
-    - instagram: "#"
-    - linkedin: "#"
-    - youtube: "#"
+    facebook: "#"
+    instagram: "#"
+    linkedin: "#"
+    youtube: "#"
