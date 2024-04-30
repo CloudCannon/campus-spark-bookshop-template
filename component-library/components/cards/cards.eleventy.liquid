@@ -4,7 +4,7 @@
         {% assign card = card_container.card %}
 		<div class="card">
 			<div class="media">
-				<img eleventy:widths="500" src="{{ card.media.url }}" alt="{{ card.media.alt }}">
+				{% image card.media.url, card.media.alt, 500 %}
 			</div>
 			<div class="text">
 				<h3>
