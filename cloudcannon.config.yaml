@@ -1,3 +1,3 @@
 _inputs:
   layout:
-    type: hidden
+    hidden: true
