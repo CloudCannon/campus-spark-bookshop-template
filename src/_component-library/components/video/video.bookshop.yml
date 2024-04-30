@@ -3,8 +3,8 @@ spec:
   structures:
     - content_blocks
   label: "Video"
-  description:
-  icon:
+  description: "A full screen video component"
+  icon: "play_circle"
   tags: []
 
 # Defines the structure of this component, as well as the default values
