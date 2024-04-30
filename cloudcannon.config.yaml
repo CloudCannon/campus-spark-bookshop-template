@@ -6,7 +6,7 @@ _inputs:
     type: color
     default: "#1d3c6b"
   primary_dark: 
-    label: Primary Dark Color
+    label: "Primary Dark Color"
     type: color
     default: "#0d192b";
   primary_text:
