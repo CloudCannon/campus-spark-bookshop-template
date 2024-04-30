@@ -8,7 +8,7 @@ _inputs:
   primary_dark: 
     label: "Primary Dark Color"
     type: color
-    default: "#0d192b";
+    default: "#0d192b"
   primary_text:
     label: Primary Text Color
     type: color
