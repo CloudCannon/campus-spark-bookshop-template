@@ -13,39 +13,39 @@ _inputs:
     label: Primary Text Color
     type: color
     default: "#5a5e63"
-	light_text: 
+  light_text: 
     label: Light Text Color
     type: color
     default: "#787cad"
-	dark_text: 
+  dark_text: 
     label: Dark Text Color
     type: color
     default: "#242424"
-	on_dark_text: 
+  on_dark_text: 
     label: On Dark Text Color
     type: color
     default: "#ffffff"
-	dark_border: 
+  dark_border: 
     label: Dark Border Color
     type: color
     default: "#aca8d4"
-	light_border: 
+  light_border: 
     label: Light Border Color
     type: color
     default: "#e0e0e0"
-	background: 
+  background: 
     label: Background Color
     type: color
     default: "#eef3f7"
-	bright_background: 
+  bright_background: 
     label: Bright Background Color
     type: color
     default: "#ffffff"
-	soft_highlight: 
+  soft_highlight: 
     label: Soft Highlight Color
     type: color
     default: "#f5f5f5"
-	link: 
+  link: 
     label: Link Color
     type: color
     default: "#000000"
