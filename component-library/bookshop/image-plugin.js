@@ -4,7 +4,7 @@ module.exports = function (Liquid) {
         this.src = token.args.split(' ')[0];
       },
       render: function(scope, hash) {
-        return `<img src="${this.src}" alt="" width="" />`;
+        return `<picture><img src="${scope.get(this.src.split("."))}" alt="" width="" /></picture>`;
       }
     });
     
