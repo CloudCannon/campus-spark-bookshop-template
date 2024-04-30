@@ -6,7 +6,7 @@ module.exports = function (Liquid) {
       render: function(scope, hash) {
         return `<img src="${this.src}" alt="" width="" />`;
       }
-    }
+    });
     
     
     // (src, alt, widths, sizes) => {
