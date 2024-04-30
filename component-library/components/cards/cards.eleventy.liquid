@@ -1,7 +1,6 @@
 <section>
 	<div class="wrapper cards">
-        {% for card_container in cards %}
-        {% assign card = card_container.card %}
+        {% for card in cards %}
 		<div class="card">
 			<div class="media">
 				{% image card.media.url card.media.alt 500 %}

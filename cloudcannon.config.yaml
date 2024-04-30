@@ -49,3 +49,6 @@ _inputs:
     label: Link Color
     type: color
     default: "#000000"
+  logo:
+    label: Logo
+    type: image
