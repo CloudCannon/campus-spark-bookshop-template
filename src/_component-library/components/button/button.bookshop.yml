@@ -3,8 +3,8 @@ spec:
   structures:
     - inner_content_blocks
   label: "Button"
-  description:
-  icon:
+  description: "A simple button component"
+  icon: check_box_outline_blank
   tags: []
 
 # Defines the structure of this component, as well as the default values
