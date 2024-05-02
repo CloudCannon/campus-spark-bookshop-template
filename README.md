@@ -51,23 +51,6 @@ This will mean that only new/updated images get optimized on build.
 
 See [this blog](https://cloudcannon.com/blog/automatically-optimize-your-images-with-eleventy-image-and-cloudcannon/) for more on optimizing images with Eleventy and CloudCannon.
 
-## Embedding content
-
-- The "Embed" component is built to be generic and support any embed, however we cannot guarantee it will work seamlessly with all embeddable content.
-- We recommend using other components to check if they can meet your requirements first.
-- We have successfully tested the following embeds:
-    - Google forms
-    - Hubspot forms
-    - Instagram
-    - Spotify
-    - X (formerly Twitter)
-    - Google docs
-    - YouTube video (although we would recommend using the "Centered Large Asset" component with a video instead)
-    - Lottie files
-    - PDFs
-
-All options in the above list (except YouTube videos) require you to use the "Embed" component.
-
 ## Accessibility
 
 We have made efforts to prioritize accessibility in our design, but we acknowledge that it may not be perfect. Your feedback is valuable to us, so please feel free to share any suggestions or concerns to help us improve accessibility further.
