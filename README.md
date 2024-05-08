@@ -1,6 +1,6 @@
 # Campus Spark
 
-Campus Spark is single page website website template for Eleventy for higher ed use cases.
+Campus Spark is a single page website template built in Eleventy for education institutions.
 
 [![Deploy to CloudCannon](https://buttons.cloudcannon.com/deploy.svg)](https://app.cloudcannon.com/register/#sites/connect/github/cloudcannon/campus-spark-bookshop-template)
 
