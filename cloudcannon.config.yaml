@@ -52,3 +52,5 @@ _inputs:
   logo:
     label: Logo
     type: image
+  image.url:
+    type: image
