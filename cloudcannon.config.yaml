@@ -54,3 +54,5 @@ _inputs:
     type: image
   image.url:
     type: image
+paths:
+  uploads: assets/uploads
