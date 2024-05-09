@@ -1,6 +1,6 @@
 # Campus Spark
 
-Campus Spark is a single page website template built in Eleventy for education institutions.
+Campus Spark is a single page website template built in Eleventy for education institutions. Browse through a [live demo](https://endless-iris.cloudvent.net/).
 
 ![Small business template screenshot](/src/assets/_screenshot.webp)
 
