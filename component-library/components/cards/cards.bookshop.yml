@@ -11,9 +11,8 @@ spec:
 blueprint:
   cards:
     - media:
-        image:
-          url: ""
-          alt: ""
+        url: ""
+        alt: ""
       heading: 
         text: ""
         url: ""
