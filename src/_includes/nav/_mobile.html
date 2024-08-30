@@ -21,7 +21,7 @@
 			<div class="dropdown-menu" id="inner-mobile-menu-{{ forloop.index }}">
 				<div class="inner-mobile-menu">
 					<section class="highlight">
-						<a href="{{ nav_item.overview.title }}">
+						<a href="{{ nav_item.overview.link }}">
 							{{ nav_item.overview.title }}
 						</a>
 					</section>
@@ -31,7 +31,7 @@
 						<ul>
 						{% for item in section.items %}
 						<li>
-							<a href="#">
+							<a href="{{ item.link }}">
 							{{ item.title }}
 							</a>
 						</li>

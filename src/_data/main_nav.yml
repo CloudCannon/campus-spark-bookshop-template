@@ -3,7 +3,7 @@
 		"title": "Admissions",
 		"overview": {
 			"title": "Admissions Overview",
-			"link": "/admission-overview",
+			"link": "#",
 			"media": {
 				"image": "/assets/students.jpg",
 				"alt": "Students in the admissions office"
@@ -75,7 +75,7 @@
 		"title": "Academics",
 		"overview": {
 			"title": "Academics Overview",
-			"link": "/academics-overview",
+			"link": "#",
 			"media": {
 				"image": "/assets/studying.jpg",
 				"alt": "Students studying"
