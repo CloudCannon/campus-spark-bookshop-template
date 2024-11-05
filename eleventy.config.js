@@ -10,7 +10,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPlugin(svgContents);
 
 	eleventyConfig.addShortcode("image", async function (src, alt, widths, sizes) {
-		if (src === undefined) {
+		if (src === undefined || src === null) {
 			return "";
 		}
 
