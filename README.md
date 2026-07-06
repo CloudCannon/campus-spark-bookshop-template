@@ -1,6 +1,6 @@
 # Campus Spark
 
-> [!CAUTION]
+> [!WARNING]
 > This template is no longer actively maintained but remains available for reference and learning. For production sites, we recommend our [modern templates]([/templates/](https://cloudcannon.com/templates/)).
 
 Campus Spark is a single page website template built in Eleventy for education institutions. Browse through a [live demo](https://endless-iris.cloudvent.net/).
