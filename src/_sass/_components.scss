@@ -268,8 +268,7 @@ footer.main {
 	padding-top: var(--space-size-xs);
 	position: relative;
 	color: var(--on-dark-text);
-	min-height: 600px;
-	max-height: 1000px;
+	aspect-ratio: 16 / 9;
 
 	.full-image {
 		object-fit: cover;
